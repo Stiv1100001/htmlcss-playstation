@@ -52,3 +52,17 @@ section#last-game div.last-game-text {
 section#new-games {
     background-color: rgb(31, 31, 31);
 }
+
+/* Playstation Plus */
+section#plus {
+    background-color: rgb(190, 188, 187);
+}
+
+section#plus img.left {
+    width: 70%;
+}
+
+.btn-gray {
+    background-color: rgb(217, 218, 220);
+    border-color: rgb(217, 218, 220);
+}
