@@ -97,4 +97,10 @@ footer li a {
 
 footer img.left {
     width: 20%;
+    max-width: 140px;
+}
+
+footer img.globe {
+    width: 16px;
+    vertical-align: middle;
 }
