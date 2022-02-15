@@ -29,7 +29,6 @@ section#jumbotron {
     background-image: url('./../img/returnal-listing-thumb-01-ps5.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 section#jumbotron .jumbo-text {
@@ -74,4 +73,9 @@ section#now {
 
 section#now img.left {
     width: 60%;
+}
+
+/* Social */
+section#social div.container-sm {
+    max-width: 560px;
 }
