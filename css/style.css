@@ -14,7 +14,14 @@ div#topbar img {
 }
 
 nav .dropdown-toggle::after {
-    display: none;
+    content: url('./../img/chevron-down-solid.svg');
+    width: 12px;
+    vertical-align: middle;
+    border: none;
+}
+
+nav .nav-item:hover .dropdown-toggle::after {
+    content: url('./../img/chevron-down-solid-hover.svg');
 }
 
 nav .toggle-img {
