@@ -21,14 +21,14 @@
 
     <header>
         <!-- Topbar black -->
-        <div id="topbar" class="bg-black">
+        <div id="topbar" class="bg-black relative ">
             <div class="container-fluid py-2 d-flex justify-content-end">
                 <img src="img/sony_logo.svg" alt="Logo Sony">
             </div>
         </div>
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light py-0">
             <div class="container-fluid">
 
                 <!-- Logo PS -->
@@ -92,6 +92,7 @@
                         </li>
                     </ul>
 
+                    <!-- Right buttons -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -113,8 +114,21 @@
     </header>
 
     <main>
-        <section id=" jumbotron">
-            <div class="container-fluid"></div>
+        <!-- Jumbotron -->
+        <section id="jumbotron">
+            <div class="container-fluid">
+                <div class="row px-2 py-5">
+                    <div
+                        class="col-12 col-lg-6 text-white jumbo-text d-flex flex-column justify-content-end align-items-start">
+                        <h1 class="mb-5">Rompi il cerchio</h1>
+                        <p class="mb-5">
+                            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
+                            esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+                        </p>
+                        <a href="#" class="btn text-white fw-bold bg-danger rounded-pill">Acquista ora</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="game-list">
