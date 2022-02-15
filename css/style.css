@@ -4,24 +4,26 @@ body {
 }
 
 /* Header */
-#topbar {
+div#topbar {
     font-family: Helvetica, sans-serif;
 }
 
-#topbar img {
+div#topbar img {
     width: 6%;
+    min-width: 60px;
 }
 
-.dropdown-toggle::after {
+nav .dropdown-toggle::after {
     display: none;
 }
 
-.toggle-img {
+nav .toggle-img {
     width: 10px;
 }
 
-.search-icon {
-    font-size: 1.6rem;
+nav img.lens {
+    width: 2.3rem;
+    vertical-align: middle;
 }
 
 /* Jumbotron */
