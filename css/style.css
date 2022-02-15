@@ -42,3 +42,8 @@ body {
 .text-bluette {
     color: rgb(56, 145, 216);
 }
+
+/* Console */
+.btn-bluette {
+    background-color: rgb(45, 100, 230);
+}
