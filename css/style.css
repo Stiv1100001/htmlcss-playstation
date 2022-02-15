@@ -47,3 +47,8 @@ section#last-game {
 section#last-game div.last-game-text {
     height: 40vh;
 }
+
+/* New games */
+section#new-games {
+    background-color: rgb(31, 31, 31);
+}
