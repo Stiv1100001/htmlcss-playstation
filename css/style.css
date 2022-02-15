@@ -4,7 +4,6 @@ body {
 }
 
 /* Header */
-
 #topbar {
     font-family: Helvetica, sans-serif;
 }
@@ -26,14 +25,25 @@ body {
 }
 
 /* Jumbotron */
-#jumbotron {
+section#jumbotron {
     background-image: url('./../img/returnal-listing-thumb-01-ps5.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#jumbotron .jumbo-text {
+section#jumbotron .jumbo-text {
     height: 60vh;
     overflow-y: hidden;
+}
+
+/* Last Game */
+section#last-game {
+    background-image: url('./../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section#last-game div.last-game-text {
+    height: 40vh;
 }
