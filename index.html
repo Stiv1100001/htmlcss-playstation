@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>Playstation</title>
@@ -17,14 +20,100 @@
 <body>
 
     <header>
-        <div class="container-fluid">
-            <div class="topbar"></div>
+        <!-- Topbar black -->
+        <div id="topbar" class="bg-black">
+            <div class="container-fluid py-2 d-flex justify-content-end">
+                <img src="img/sony_logo.svg" alt="Logo Sony">
+            </div>
         </div>
-        <nav></nav>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+
+                <!-- Logo PS -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="Logo Playstation">
+                </a>
+
+                <!-- Menu toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu items -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left dropdowns -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Giochi
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Hardware
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Servizi
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Novit&agrave;
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Fai Acquisti
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Supporto
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                My Playstation
+                                <img src="img/chevron-down-solid.svg" alt="" class="d-inline toggle-img">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="btn text-white bg-black rounded-pill">Accedi</a>
+                        </li>
+                        <li class="nav-item search-icon">
+                            <i class="bi bi-search ms-2"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section id="jumbotron">
+        <section id=" jumbotron">
             <div class="container-fluid"></div>
         </section>
 
@@ -68,7 +157,9 @@
             <div class="container-fluid"></div>
         </section>
 
-        <footer></footer>
+        <footer>
+            <div class="container-fluid"></div>
+        </footer>
     </main>
 
 </body>

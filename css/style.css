@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topbar {
+    font-family: Helvetica, sans-serif;
+}
+
+#topbar img {
+    width: 6%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.toggle-img {
+    width: 10px;
+}
+
+.search-icon {
+    font-size: 1.6rem;
+}
