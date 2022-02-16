@@ -102,6 +102,7 @@ footer {
 
 footer li {
     list-style-type: none;
+    line-height: 2rem;
 }
 
 footer li a {
