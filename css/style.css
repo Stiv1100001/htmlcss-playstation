@@ -35,7 +35,7 @@ nav img.lens {
 
 /* Jumbotron */
 section#jumbotron {
-    background-image: url('./../img/returnal-listing-thumb-01-ps5.jpg');
+    background-image: url('./../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -43,6 +43,20 @@ section#jumbotron {
 section#jumbotron .jumbo-text {
     height: 60vh;
     overflow-y: hidden;
+}
+
+/* Games list */
+section#game-list div.cs-border img {
+    border-radius: 20px;
+}
+
+section#game-list div.cs-border.border {
+    border-radius: 25px;
+    transition: border .2s;
+}
+
+section#game-list div.cs-border:hover {
+    border-color: rgb(7, 118, 207) !important;
 }
 
 /* Last Game */
@@ -82,11 +96,6 @@ section#now {
 
 section#now img.left {
     width: 60%;
-}
-
-/* Social */
-section#social div.container-sm {
-    max-width: 560px;
 }
 
 /* Footer */
