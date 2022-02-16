@@ -3,6 +3,20 @@ body {
     color: #717171;
 }
 
+/* Color utility */
+.cs-bg-black {
+    background-color: rgb(31, 31, 31);
+}
+
+.cs-bg-lightgray {
+    background-color: rgb(190, 188, 187);
+}
+
+.btn-gray {
+    background-color: rgb(217, 218, 220);
+    border-color: rgb(217, 218, 220);
+}
+
 /* Header */
 div#topbar {
     font-family: Helvetica, sans-serif;
@@ -55,6 +69,7 @@ section#game-list div.cs-border.border {
     transition: border .2s;
 }
 
+/* TODO Remove !important */
 section#game-list div.cs-border:hover {
     border-color: rgb(7, 118, 207) !important;
 }
@@ -66,27 +81,9 @@ section#last-game {
     background-position: center;
 }
 
-section#last-game div.last-game-text {
-    height: 40vh;
-}
-
-/* New games */
-section#new-games {
-    background-color: rgb(31, 31, 31);
-}
-
 /* Playstation Plus */
-section#plus {
-    background-color: rgb(190, 188, 187);
-}
-
 section#plus img.left {
     width: 70%;
-}
-
-.btn-gray {
-    background-color: rgb(217, 218, 220);
-    border-color: rgb(217, 218, 220);
 }
 
 /* Playstation Now */
