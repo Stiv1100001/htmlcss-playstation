@@ -54,7 +54,7 @@ section#jumbotron {
     background-position: center;
 }
 
-section#jumbotron .jumbo-text {
+section#jumbotron {
     height: 60vh;
     overflow-y: hidden;
 }
