@@ -1,6 +1,13 @@
+/* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #717171;
+}
+
+/* BG Utility */
+.img-bg {
+    background-position: center;
+    background-size: cover;
 }
 
 /* Color utility */
@@ -16,9 +23,22 @@ body {
     background-color: rgb(0, 67, 156);
 }
 
+.cs-bg-deepblue {
+    background-color: rgb(22, 28, 59);
+}
+
 .btn-gray {
     background-color: rgb(217, 218, 220);
     border-color: rgb(217, 218, 220);
+}
+
+/* Hover effect */
+.blue-border {
+    transition: border .3s;
+}
+
+.blue-border:hover {
+    border-color: rgb(7, 118, 207) !important;
 }
 
 /* Header */
@@ -50,13 +70,10 @@ nav img.lens {
 /* Jumbotron */
 section#jumbotron {
     background-image: url('./../img/jumbo-bg.png');
-    background-size: cover;
-    background-position: center;
 }
 
 section#jumbotron {
     height: 60vh;
-    overflow-y: hidden;
 }
 
 /* Games list */
@@ -69,26 +86,9 @@ section#game-list div.cs-border.border {
     transition: border .2s;
 }
 
-/* TODO Remove !important */
-section#game-list div.cs-border:hover {
-    border-color: rgb(7, 118, 207) !important;
-}
-
-/* Console */
-section#console div.border-bottom {
-    transition: border .5s;
-}
-
-section#console div.border-bottom:hover {
-    border-color: rgb(7, 118, 207) !important;
-
-}
-
 /* Last Game */
 section#last-game {
     background-image: url('./../img/it-takes-two-hero-banner-desktop.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 /* Playstation Plus */
@@ -97,10 +97,6 @@ section#plus img.left {
 }
 
 /* Playstation Now */
-section#now {
-    background-color: rgb(22, 28, 59);
-}
-
 section#now img.left {
     width: 60%;
 }
