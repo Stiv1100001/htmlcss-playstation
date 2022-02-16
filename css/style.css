@@ -12,6 +12,10 @@ body {
     background-color: rgb(190, 188, 187);
 }
 
+.cs-bg-blue {
+    background-color: rgb(0, 67, 156);
+}
+
 .btn-gray {
     background-color: rgb(217, 218, 220);
     border-color: rgb(217, 218, 220);
@@ -36,10 +40,6 @@ nav .dropdown-toggle::after {
 
 nav .nav-item:hover .dropdown-toggle::after {
     content: url('./../img/chevron-down-solid-hover.svg');
-}
-
-nav .toggle-img {
-    width: 10px;
 }
 
 nav img.lens {
@@ -96,10 +96,6 @@ section#now img.left {
 }
 
 /* Footer */
-footer {
-    background-color: rgb(0, 67, 156);
-}
-
 footer li {
     list-style-type: none;
     line-height: 2rem;
