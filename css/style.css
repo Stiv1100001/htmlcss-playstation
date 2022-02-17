@@ -47,6 +47,18 @@ body {
     transform: translateY(-20px);
 }
 
+.btn {
+    transition: box-shadow .2s;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.336);
+}
+
+.btn.btn-danger:hover {
+    box-shadow: 5px 5px white;
+}
+
 /* Header */
 div#topbar {
     font-family: Helvetica, sans-serif;
