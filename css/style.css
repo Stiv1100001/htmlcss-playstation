@@ -33,12 +33,18 @@ body {
 }
 
 /* Hover effect */
-.blue-border {
-    transition: border .3s;
+.blue-border,
+.blue-border-a {
+    transition: transform 1s ease, border .3s;
 }
 
-.blue-border:hover {
+.blue-border:hover,
+.blue-border-a:active {
     border-color: rgb(7, 118, 207) !important;
+}
+
+.blue-border-a:hover {
+    transform: translateY(-20px);
 }
 
 /* Header */
